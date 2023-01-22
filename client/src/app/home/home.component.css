@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Cinzel:400,700,900|Lato:100,300,400,700,900|Lobster|Lora:400,700|Mansalva|Muli:200,300,400,600,700,800,900|Open+Sans:300,400,600,700,800|Oswald:200,300,400,500,600,700|Roboto:100,300,400,500,700,900&display=swap');
+/* Used Google Fonts */
+font-family: 'Roboto',
+sans-serif;
+font-family: 'Mansalva',
+cursive;
+font-family: 'Lato',
+sans-serif;
+font-family: 'Open Sans',
+sans-serif;
+font-family: 'Oswald',
+sans-serif;
+font-family: 'Lora',
+serif;
+font-family: 'Muli',
+sans-serif;
+font-family: 'Lobster',
+cursive;
+font-family: 'Cinzel',
+serif;
+font-family: 'Bangers',
+cursive;
+
+/* Used Google Fonts */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    border: none;
+    background: #eee;
+}
+
+.search {
+    width: 100%;
+    margin-bottom: auto;
+    margin-top: 20px;
+    height: 50px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.search-input {
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    margin-top: 5px;
+    caret-color: transparent;
+    line-height: 20px;
+    transition: width 0.4s linear
+}
+
+.search .search-input {
+    padding: 0 10px;
+    width: 100%;
+    caret-color: #536bf6;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    transition: width 0.4s linear;
+}
+
+
+.search-icon {
+    height: 35px;
+    width: 50px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #536bf6;
+    font-size: 12px;
+    bottom: 30px;
+    position: relative;
+    border-radius: 5px;
+}
+
+a:link {
+    text-decoration: none
+}
+/* 
+.card-inner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    border: none;
+    cursor: pointer;
+    transition: all 2s;
+} */
+
+
+/* .card-inner:hover {
+
+    transform: scale(1.1);
+
+} */
+
+/* .mg-text span {
+
+    font-size: 12px;
+
+}
+
+.mg-text {
+
+    line-height: 14px;
+} */
+
+.header {
+    background-color: #eee;
+}
+.dropdown-li {
+    margin: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.dropdown-toggle::after{
+    content:initial
+ }
+.my-avatar {
+    cursor: pointer;
+    position: fixed;
+    margin-left: 10pc;
+}
+
+.my-avatar /deep/ .avatar-content {
+    background-color: red !important;
+}
+
+.my-avatar /deep/ .avatar-container {
+    float: right !important;
+}
+
+
+.logo-holder h3, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo-4 h3 {
+    color: #e74c3c;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 0.65;
+    font-family: 'Lobster', cursive;
+}
+
+.logo-4 p {
+    font-size: 14px;
+    margin-left: 50px;
+    color: #545454;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-style: italic;
+    font-family: 'Mansalva', cursive;
+}
+
+#searchresultsnumber {
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.searchresult {
+    margin-left: 8px;
+}
+
+.searchresult h2 {
+    font-size: 19px;
+    line-height: 18px;
+    font-weight: normal;
+    color: rgb(29, 1, 189);
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+
+.searchresult a {
+    font-size: 14px;
+    line-height: 14px;
+    color: green;
+    margin-bottom: 0px;
+}
