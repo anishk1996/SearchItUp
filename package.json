@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "install": "cd server && npm install",
-    "start-client": "cd client && npm run serve-dev",
+    "start-client": "cd client && npm run build-prod",
     "start-server": "cd server && npm run start",
     "start-all": "concurrently \"npm run start-client\" \"npm run start-server\""
   },
