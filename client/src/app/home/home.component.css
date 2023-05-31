@@ -76,13 +76,13 @@ a:link {
     margin-left: 15pc;
 }
 
-.my-avatar /deep/ .avatar-content {
+/* .my-avatar /deep/ .avatar-content {
     background-color: red !important;
 }
 
 .my-avatar /deep/ .avatar-container {
     float: right !important;
-}
+} */
 
 
 .logo-holder h3, p {
