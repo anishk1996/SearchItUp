@@ -4,7 +4,7 @@
   "scripts": {
     "build-dev": "ng serve",
     "build-prod": "ng build",
-    "serve-dev": "ng serve --watch"
+    "start": "ng serve"
   },
   "private": true,
   "dependencies": {
