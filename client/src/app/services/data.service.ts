@@ -8,7 +8,12 @@ export class DataService {
 
   constructor(private http: HttpClient) { }
 
-  getData(url: string) {
-    return this.http.get(url);
+  getData(text: string) {
+    return this.http.get('https://searchitupnode.vercel.app/data/get?search='+text, { responseType: 'json' })
+    .pipe(
+      (data: any) => {
+        return data;
+      }
+    );
   }
 }

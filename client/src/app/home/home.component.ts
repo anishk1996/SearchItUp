@@ -29,7 +29,9 @@ export class HomeComponent implements OnInit {
     this.isSearching = true;
     this.showLoader = true;
     this.showResult = false;
-    this.dataService.getData(`http://localhost:3100/data/get?search=${this.searchText}`).subscribe((data) => {
+
+    this.dataService.getData(this.searchText).subscribe(
+      (data) => {
       console.log('result', data);
       this.searchData = data;
       if (this.searchData.success == false) {
@@ -44,7 +46,7 @@ export class HomeComponent implements OnInit {
         this.isSearching = false;
         this.showLoader = false;  
       }
-    })
+    });
   }
 
   logout() {
